@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Dots Pattern</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/dots.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+    <script src="/dots.js" defer></script>
+  </head>  
+  <body>
+    <div id="container">
+    <!--   rows, squares and dots dynamically added through javascript     -->
+      
+    </div>
+    <div id="controlPanel">
+    <!--   panel with sliders     -->
+      <div id="sliders">
+      <!--   grid slider       -->
+            <div class="slidecontainer">
+            <img src="https://cdn.glitch.com/d7c55ec2-a0c1-4640-86de-b53f7e97f33b%2FArtboard%201.png?v=1604071747117">
+            <input type="range" min="1" max="50" value="1" class="slider" id="myGrid">
+            <img src="https://cdn.glitch.com/d7c55ec2-a0c1-4640-86de-b53f7e97f33b%2FArtboard%202.png?v=1604012246952">
+        </div>
+        <!--     size slider     -->
+          <div class="slidecontainer">
+            <img src="https://cdn.glitch.com/d7c55ec2-a0c1-4640-86de-b53f7e97f33b%2FArtboard%203.png?v=1604012247056">
+            <input type="range" min="10" max="80" value="10" class="slider" id="mySize">
+            <img src="https://cdn.glitch.com/d7c55ec2-a0c1-4640-86de-b53f7e97f33b%2FArtboard%204.png?v=1604012246953">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
