@@ -1,6 +1,4 @@
 // setting heights and widths for responsive viewing
-var pymChild = new pym.Child();
-
 let theBody = document.getElementsByTagName("body")[0];
 theBody.style.height = window.innerHeight + "px";
 let container = document.getElementById("container");
